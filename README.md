@@ -1,12 +1,11 @@
+
+# Exercise: Set up a GitHub repository with correct tools
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+> In this exercise, you will set up a "Hello world" repository. No complex coding is required for this exercise. Your goal here is to master all tools and best practices you learned about in previous steps. You will be using them in all Microverse project and most likely in your future job as well!
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./initial_screen.png)
 
 ## Built With
 
@@ -14,16 +13,14 @@ Additional description about the project and its features.
 - Frameworks
 - Technologies used
 
-## Live Demo
+<!-- ## Live Demo
 
 [Live Demo Link](https://livedemo.com)
-
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -38,8 +35,6 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-
-
 
 ## Authors
 
@@ -73,4 +68,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](lic.url) licensed. -->
