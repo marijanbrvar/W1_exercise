@@ -1,8 +1,9 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Exercise: Set up a GitHub repository with correct tools
 
-> n this exercise, you will set up a "Hello world" repository. No complex coding is required for this exercise. Your goal here is to master all tools and best practices you learned about in previous steps. You will be using them in all Microverse project and most likely in your future job as well!
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+> In this exercise, you will set up a "Hello world" repository. No complex coding is required for this exercise. Your goal here is to master all tools and best practices you learned about in previous steps. You will be using them in all Microverse project and most likely in your future job as well!
 
 ![screenshot](./initial_screen.png)
 
