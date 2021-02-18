@@ -1,10 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
 
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #6d6d6d;
+html,
+body {
+  height: calc(100% - 55px);
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+p ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20/1.2;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  top: 0;
+  background-color: #fff;
+  padding: 4px 24px;
+  width: 100%;
+  min-height: 44px;
+  box-shadow: 0 2px 2px #1111112f;
+}
+
+.nav-container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.nav-container a {
+  flex: 0 1 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1em;
+  color: #111;
+  font-weight: 600;
+}
+
+.nav-container > a > svg {
+  position: relative;
+  top: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  max-width: 50%;
+  margin: 110px auto 24px;
+}
+
+article p {
+  line-height: 1.8em;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+article header h1 {
+  font-size: 3em;
+  margin-bottom: 48px;
+  font-family: "Quicksand";
+  font-weight: 500;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+figure figcaption {
+  size: 0.8em;
+  color: #1111112f;
+}
+
+.discusion-form h3 {
+  font-size: 1.4em;
+  font-family: "Quicksand";
+  font-weight: 600;
+}
+
+.discusion-form p {
+  font-size: 1em;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 12px 0;
+  color: #1111119e;
+}
+
+.discusion-form label {
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.discusion-form input,
+textarea {
+  border: 0;
+}
+
+.discusion-form div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+.discusion-form div:nth-child(1) {
+  display: flex;
+}
+
+.discusion-form input {
+  height: 44px;
+  font-size: 1.2em;
+  border: 1px solid #4646468a;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.form-header div:first-child {
+  display: block;
+}
+
+.form-header p {
+  padding: 0;
+  margin: 0;
+}
+
+.form-control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control:nth-child(1) {
+  margin-right: 12px;
+}
+
+.discusion-form div:nth-child(2) textarea {
+  border-radius: 8px;
+  border: 1px solid #4646468a;
+  font-family: "Roboto";
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 12px;
+}
+
+.discusion-form button {
+  background-color: #0079fa;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  height: 44px;
+  font-size: 1.2em;
+  padding: 8px 24px;
+  margin: 20px 0;
+  flex: 0 1 auto;
+}
+
+body > main > div > section > form > div:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opinion ul li {
+  display: inline-block;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.opinion ul li div {
+  display: block;
+  flex-direction: column;
+}
+
+.opinion ul li img {
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+body > main > div > section > form > div:nth-child(4) > div {
+  flex: 1 1 auto;
+}
+
+.checkbox {
+  display: block!important;
 }
