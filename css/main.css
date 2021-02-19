@@ -89,6 +89,19 @@ nav li {
   align-content: center;
 }
 
+.opinion li div,
+img,
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 4px;
+}
+
+.opinion li div img {
+  margin: 0 auto;
+}
+
 #branding img {
   position: absolute;
   top: 11px;
@@ -123,7 +136,8 @@ nav li {
   font-weight: 200;
 }
 
-.box a, .btn {
+.box a,
+.btn {
   text-decoration: none;
   padding: 12px 24px;
   font-size: 14px;
@@ -175,24 +189,9 @@ footer {
   cursor: pointer;
 }
 
-.opinion li div,
-img,
-label {
-  display: block;
-  font-size: 14px;
-  font-weight: 300;
-  padding-top: 4px;
-}
-
-.opinion li div img {
-  margin: 0 auto;
-}
-
 .form-control {
-  /* display: block; */
-  margin-right: 24px;
   width: 50%;
-  margin: 14px 0;
+  margin: 14px 0 0 24px;
 }
 
 .form-control label {
@@ -202,7 +201,8 @@ label {
   padding-bottom: 4px;
 }
 
-.form-control input, textarea {
+.form-control input,
+textarea {
   border: 1px solid #1111113e;
   border-radius: 6px;
   padding: 4px 16px;
@@ -213,7 +213,7 @@ label {
 
 .comment textarea {
   flex: 1;
-  font-family: 'Roboto' sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .form-row {
@@ -225,7 +225,7 @@ label {
 }
 
 .btn {
- margin-top: 12px;
+  margin-top: 12px;
 }
 
 .form-action {
