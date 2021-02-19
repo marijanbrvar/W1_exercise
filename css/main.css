@@ -211,9 +211,22 @@ textarea {
   font-size: 18px;
 }
 
+.comment {
+  margin: 24px;
+}
+
+.comment label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #323b4198;
+  padding-bottom: 4px;
+}
+
 .comment textarea {
   flex: 1;
   font-family: "Roboto", sans-serif;
+  width: calc(100% - 68px)
+
 }
 
 .form-row {
@@ -232,7 +245,17 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 24px;
+}
+
+.form-action div label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form-action div input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
 }
 
 .task {
