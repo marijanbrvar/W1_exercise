@@ -141,6 +141,18 @@ label {
   margin-bottom: 24px;
 }
 
+.link {
+  text-decoration: none;
+  color: rgb(19, 119, 227);
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: rgb(18, 95, 177);
+  font-weight: 400;
+}
+
 .box a,
 .btn {
   text-decoration: none;
@@ -269,4 +281,47 @@ textarea {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+}
+
+
+.mini-layout {
+  margin: 24px 0;
+}
+
+.mini-layout .wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper .box {
+  height: 30px;
+  min-width: 340;
+  max-width: 1200px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.wrapper .main {
+  display: flex;
+  justify-content: stretch;
+}
+
+.header {
+  background-color: #F2685D;
+}
+
+.menu {
+  background-color: #7BC9F0;
+}
+
+.content {
+  background-color: #FBCF67;
+  color: #111111!important;
+  min-height: 300px;
+  flex: 1 0 auto;
+}
+
+.footer {
+  background-color: #92CB70;
 }
