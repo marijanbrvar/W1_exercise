@@ -1,10 +1,92 @@
-*,
-::before,
-::after {
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-h1 {
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: crimson;
+  box-sizing: border-box;
+  flex: 1;
+  padding: 8px;
+}
+
+nav ul {
+  top: 0;
+  height: 40px;
+  display: flex;
+}
+
+nav li{
+  padding: 8px 16px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #6d6d6d;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+footer ul {
+  display: flex;
+}
+
+.content {
+  margin-top: 120px;
+  border: 10px solid goldenrod;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 5 1 600px;
+  margin: 12px 24px;
+}
+
+aside {
+  flex: 2 1 auto;
+}
+
+figure {
+  margin: 24px auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer ul{
+  display: block;
+}
+
+.logo {
+  width: 100%;
+  background-color: #fff;
+  height: 40px;
 }
