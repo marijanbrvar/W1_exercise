@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Week #1 Microverse exercise">
+  <meta name="keywords" content="Web form, web desing">
+  <meta name="author" content="Marijan Brvar">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Week 1 exercises</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <div id="branding">
+          <a href="https://marijanbrvar.github.io/W1_exercise/"><img src="../img/m.svg" height="30" alt="M logo"></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../settingup">Setting up</a></li>
+            <li><a href="../positioning">Positioning</a></li>
+            <li class="active"><a href="../forms">Forms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div id="main">
+    <section id="intro">
+      <div class="container">
+        <div class="intro">
+          <h1>Week 1 excersises showcase</h1>
+        <p>
+          In this exercise, we are adding a form for posting comments to the article.
+          Our goal here is to master HTML forms and play a little with UX and fonts. You learned about all of these in
+          previous steps. Having fun!
+        </p>
+        <div class="task">
+          <h3>Task:</h3>
+          <ol>
+            <li>Create a new branch in the repository of your previous project.</li>
+            <li>First of all, think about the user experience:
+              <ol>
+                <li>Where should this form be placed?</li>
+                <li>Should it be fully visible or should it be collapsed until a user decides to open it?</li>
+                <li>Would it be useful to have multiple links in different parts of the article that can move a user to
+                  thecomment’s form quickly or would it be too aggressive?</li>
+              </ol>
+            </li>
+
+            <li>Make your own decisions about UX but remember to describe them in your PR description, so your code
+              reviewer can easily understand your reasons.</li>
+            <li>Secondly, create a nice form that includes:
+              <ol>
+                <li>a short text field for user’s name</li>
+                <li>a short text field for email</li>
+                <li>a long text field for comment</li>
+                <li>a question: “What is your overall opinion about this article” with 3 options
+                  positive/negative/neutral</li>
+                <li>only one of the above options can be selected</li>
+                <li>a checkbox saying “I want to subscribe to the newsletter”</li>
+                <li>a submit button saying “Send”</li>
+              </ol>
+            </li>
+
+            <li>Add a placeholder for the comment field saying “Type your comment here…”</li>
+            <li>Add validations that will:
+              <ol>
+                <li>make sure that name, email and comment fields are required</li>
+                <li>make sure that comment field can have up to 250 chars and other fields can have up to 20 chars</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="discusion-form">
+      <div class="container">
+        <hr>
+        <div class="intro">
+          <h3>What do you think?</h3>
+          <p>Please live comment below or <br>Share with us your overall opinion about this article on right.</p>
+          <div class="opinion">
+            <ul>
+              <li>
+                <div>
+                  <img src="../img/negative.svg" width="40" height="40" alt="">
+                  <label>Negative</label>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="../img/neutral.svg" width="40" height="40" alt="">
+                  <label>Neutral</label>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="../img/positive.svg" width="40" height="40" alt="">
+                  <label>Positive</label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <form id="form" onsubmit="sConsole(event)">
+          <div class="form-row">
+            <div class="form-control">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" placeholder="Your name here..." required>
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="And your email" required>
+            </div>
+          </div>
+          <div class="comment">
+            <label for="comment">Comment</label>
+            <textarea placeholder="Type your comment here..." name="comment" id="comment" cols="30" rows="6"
+              required></textarea>
+          </div>
+          <div class="form-action">
+            <div>
+              <label>
+                <input id="checkbox" class="checkbox-label" type="checkbox" value="1" required> I want to subscribe to
+                the newsletter</label>
+            </div>
+            <div>
+              <button class="btn" type="submit">Send your comment!</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>M Web Dsign &copy; 2021</p>
+  </footer>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>
