@@ -32,7 +32,7 @@ a {
   padding: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 20/1.2;
+  font-size: calc(20 / 1.2);
   text-decoration: none;
   list-style: none;
 }
@@ -125,6 +125,7 @@ figure figcaption {
   font-weight: 500;
   margin-bottom: 4px;
 }
+
 .discusion-form input,
 textarea {
   border: 0;
@@ -223,5 +224,16 @@ body > main > div > section > form > div:nth-child(4) > div {
 }
 
 .checkbox {
-  display: block!important;
+  width: 200px;
+  position: relative;
+  left: -20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.checkbox input {
+  width: 20px;
+  position: relative;
+  left: 200px;
+  vertical-align: middle;
 }
