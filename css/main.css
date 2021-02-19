@@ -175,7 +175,7 @@ footer {
   color: #fff;
   font-size: 12px;
   background-color: #323b41;
-  margin-top:auto ;
+  margin-top: auto;
 }
 
 #intro p {
@@ -244,8 +244,7 @@ textarea {
 .comment textarea {
   flex: 1;
   font-family: "Roboto", sans-serif;
-  width: calc(100% - 68px)
-
+  width: calc(100% - 68px);
 }
 
 .form-row {
@@ -283,7 +282,6 @@ textarea {
   line-height: 1.4;
 }
 
-
 .mini-layout {
   margin: 24px 0;
 }
@@ -296,10 +294,10 @@ textarea {
 
 .wrapper .box {
   height: 30px;
-  min-width: 340;
+  min-width: 340px;
   max-width: 1200px;
   width: 100%;
-  color: #ffffff;
+  color: #fff;
 }
 
 .wrapper .main {
@@ -308,20 +306,20 @@ textarea {
 }
 
 .header {
-  background-color: #F2685D;
+  background-color: #f2685d;
 }
 
 .menu {
-  background-color: #7BC9F0;
+  background-color: #7bc9f0;
 }
 
 .content {
-  background-color: #FBCF67;
-  color: #111111!important;
+  background-color: #fbcf67;
+  color: #111 !important;
   min-height: 300px;
   flex: 1 0 auto;
 }
 
 .footer {
-  background-color: #92CB70;
+  background-color: #92cb70;
 }
