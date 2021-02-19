@@ -21,6 +21,7 @@ body {
 #main {
   height: 100%;
   margin-top: 110px;
+
   /* margin-bottom: 110px; */
 }
 
@@ -38,8 +39,8 @@ h3 {
 /* Header */
 
 header {
-  background-color: #ffffff;
-  color: #111111;
+  background-color: #fff;
+  color: #111;
   height: 52px;
   box-shadow: 0 3px 3px #1111113e;
   position: fixed;
@@ -50,7 +51,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #111111;
+  color: #111;
   text-transform: uppercase;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
@@ -123,61 +124,31 @@ nav li {
   font-weight: 200;
 }
 
-.box button {
+.box a {
+  text-decoration: none;
   padding: 12px 24px;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bolder;
   background-color: rgb(19, 119, 227);
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
   border: 0;
 }
 
-#contact {
-  background-color: #e1e1e1;
-}
-
-.contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-}
-
-.contact input[type="email"] {
-  flex: 1;
-  padding: 4px 12px;
-  height: 32px;
-  border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-}
-.contact input[type="email"],
-.contact button {
-  font-size: 18px;
-  margin: 0;
-  border: 0;
-}
-
-.contact button {
-  border: 2px solid white;
-  background-color: cornflowerblue;
-  color: #ffffff;
-  flex: 1;
-  padding: 8px 24px;
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 8px;
+.box a:hover {
+  background-color: rgb(15, 90, 171);
 }
 
 footer {
   padding: 14px 40px;
-  color: #ffffff;
+  color: #fff;
   font-size: 12px;
   background-color: #323b41;
 }
 
 #intro p {
-  font-size: 20;
+  font-size: 20px;
   line-height: 1.4;
   font-weight: 300;
 }
