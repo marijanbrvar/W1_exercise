@@ -17,3 +17,12 @@ function checkBoxLimit() {
 }
 
 // checkBoxLimit()
+
+function sConsole(e) {
+  e.preventDefault();
+  let name = document.getElementById('name');
+  let email = document.getElementById('email');
+  let comment = document.getElementById('comment');
+  let checkbox = document.getElementById('checkbox');
+  console.log(`Name: ${name.value} Email: ${email.value}  Comment: ${comment.value} Subscribed: ${checkbox.value}`)
+}
