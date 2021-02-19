@@ -26,7 +26,7 @@ ul {
 /* Header */
 
 header {
-  padding-top: 12px;
+  padding: 6px 0;
   background-color: #ffffff;
   color: #111111;
   min-height: 52px;
@@ -50,13 +50,17 @@ header li {
   display: inline;
   flex: 1;
   padding: 0 12px 0 12px ;
+  line-height: 51px;
 }
 
 header #branding {
+  position: relative;
 }
 
 nav ul {
-margin: 8px 0;
+/* margin: 10px 0; */
+margin: auto 0;
+height: 51px;
 }
 
 .nav {
@@ -66,5 +70,7 @@ margin: 8px 0;
 }
 
 #branding img {
-  height: 40px;
+  position: absolute;
+  top: 11px;
+  height: 30px;
 }
