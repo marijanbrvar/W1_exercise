@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+body {
+  font: 20px/1.2 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  padding-top: 12px;
+  background-color: #ffffff;
+  color: #111111;
+  min-height: 52px;
+  box-shadow: 0 3px 3px #1111113e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: #111111;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+header li {
+  display: inline;
+  flex: 1;
+  padding: 0 12px 0 12px ;
+}
+
+header #branding {
+}
+
+nav ul {
+margin: 8px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#branding img {
+  height: 40px;
+}
